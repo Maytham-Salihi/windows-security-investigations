@@ -1,7 +1,5 @@
 # Event ID 4625 — Failed Logon Attempt Investigation
 
-![event4625](screenshots/event4625.png)
-
 ## Summary
 Event ID **4625** indicates a **failed logon attempt** on the system. This event is generated when authentication fails due to an incorrect username, incorrect password, or an attempt to log in using invalid credentials. In this case, the failed logon originated from the local workstation and was triggered by an incorrect username or password.
 
