@@ -17,7 +17,7 @@ A Windows Security Event ID **4624** indicates a **successful logon** to the sys
 **Workstation Name:** (insert workstation name)  
 **Source Network Address:** (blank)  
 **Source Port:** (blank)
-</br>
+
 ![Event 4624 Screenshot](screenshots/event-4624-successful-logon.png)
 
 ---
