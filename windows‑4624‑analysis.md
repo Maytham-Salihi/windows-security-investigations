@@ -1,7 +1,3 @@
-<img width="1920" height="1080" alt="eventviewer" src="https://github.com/user-attachments/assets/a1bb731a-4896-4c6f-9cbe-cda6bcaafd51" />
-<br>
-<img width="1660" height="1080" alt="4624-details" src="https://github.com/user-attachments/assets/a6c3de20-623b-4765-b058-543be910373c" />
-
 # Successful System Logon – Event ID 4624
 
 **System:** Windows Security Log  
@@ -10,16 +6,14 @@
 ---
 
 ## 📸 Screenshot: Event Viewer (Security Log)
-> Replace `eventviewer.png` with your actual screenshot filename.
+<img width="1920" height="1080" alt="eventviewer" src="https://github.com/user-attachments/assets/a1bb731a-4896-4c6f-9cbe-cda6bcaafd51" />
 
-![Event Viewer Screenshot](eventviewer.png)
+
 
 ---
 
 ## 📸 Screenshot: Event ID 4624 Details
-> Replace `4624-details.png` with your actual screenshot filename.
-
-![4624 Event Details](4624-details.png)
+<img width="1660" height="1080" alt="4624-details" src="https://github.com/user-attachments/assets/a6c3de20-623b-4765-b058-543be910373c" />
 
 ---
 
