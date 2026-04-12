@@ -17,6 +17,7 @@ A Windows Security Event ID 4688 was recorded, indicating that a new process was
 **Command Line:** (blank)
 ![Event 4688 Screenshot](screenshots/Event ID 4688 -Process Creation Investigation.png)
 
+
 ---
 
 ### Analysis
