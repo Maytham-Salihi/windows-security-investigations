@@ -1,10 +1,5 @@
 ## Event ID 4688 — Process Creation Investigation
 
-### Screenshot
-![event4688](screenshots/event4688.png)
-
----
-
 ### Summary
 A Windows Security Event ID 4688 was recorded, indicating that a new process was created on the system. In this case, the process **"MicrosoftEdgeUpdate.exe"** was launched by **"svchost.exe"** under the **SYSTEM** user. This behaviour is consistent with normal Windows update operations and does not indicate malicious activity.
 
