@@ -26,7 +26,7 @@ This is normal system activity and not malicious.
 
 ## 🔍 Evidence
 - **Security ID:** SYSTEM  
-- **Account Name:** MAYTHAMSALIHI$  
+- **Account Name:** M********$  
 - **Account Domain:** WORKGROUP  
 - **Logon ID:** `0x3E7`  
 
