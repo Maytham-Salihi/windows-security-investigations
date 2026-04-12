@@ -47,20 +47,6 @@ Key areas of study:
 
 ## 💼 Professional Experience
 
-### **CEO – Kurdish Institute of Corporate Governance (2017)**
-- Identified operational and financial risks for board reporting  
-- Ensured organisational accountability and governance standards  
-- Promoted ethical conduct and cultural compliance  
-
-### **Data Manager – Handicap International France / Iraq (2016)**
-- Managed data governance, access control & retention policies  
-- Worked with security teams to encrypt sensitive data  
-- Oversaw data flow architecture for accuracy and compliance  
-
-### **Business Developer – International Medical Corps (2013–2015)**
-- Identified market opportunities and supported partnerships  
-- Provided field insights to improve service delivery and data accuracy  
-
 ### **Data Entry / Traffic Controller – TK Maxx UK (2007–2009)**
 - Processed data with 99.9% accuracy  
 - Monitored workflow dashboards and resolved bottlenecks  
