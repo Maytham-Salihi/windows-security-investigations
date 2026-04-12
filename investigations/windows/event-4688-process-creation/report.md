@@ -15,15 +15,17 @@ A Windows Security Event ID 4688 was recorded, indicating that a new process was
 **Parent Process Identifier:** (insert parent PID)  
 **Creator Subject:** System (Primary SID)  
 **Command Line:** (blank)
+
 ![Event 4688 Screenshot](screenshots/Event ID 4688 — Process Creation Investigation.png)
+
 ---
 
 ### Analysis
-- This is a **legitimate system‑initiated process creation**.
-- **svchost.exe** is a trusted Windows service host responsible for running system services.
-- **MicrosoftEdgeUpdate.exe** is a valid Microsoft updater binary located in the correct installation directory.
-- No suspicious command‑line arguments were present.
-- No abnormal parent‑child relationship was observed.
+- This is a **legitimate system‑initiated process creation**.  
+- **svchost.exe** is a trusted Windows service host responsible for running system services.  
+- **MicrosoftEdgeUpdate.exe** is a valid Microsoft updater binary located in the correct installation directory.  
+- No suspicious command‑line arguments were present.  
+- No abnormal parent‑child relationship was observed.  
 - No indicators of compromise were identified.
 
 ---
@@ -34,4 +36,5 @@ A Windows Security Event ID 4688 was recorded, indicating that a new process was
 ---
 
 ### Files Included
-- event4688.png
+- `screenshots/Event ID 4688 — Process Creation Investigation.png`  
+- `report.md`
