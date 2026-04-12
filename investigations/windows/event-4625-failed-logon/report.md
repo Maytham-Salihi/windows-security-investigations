@@ -20,6 +20,8 @@ Event ID **4625** indicates a **failed logon attempt** on the system. This event
 | **Source Port** | 0 / 62731 |
 | **Workstation Name** | (blur before posting) |
 
+![Event 4625 Screenshot](screenshots/event-4625-failed-logon.png)
+
 ## Analysis
 The failed logon attempt was caused by an incorrect username or password. The **Status** and **Sub Status** codes confirm this:
 
