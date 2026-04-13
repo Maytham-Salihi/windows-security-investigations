@@ -3,7 +3,7 @@
 ### Screenshot
 (Insert your screenshot here)
 Example:
-
+![event4672](screenshots/event4672.png)
 
 ---
 
@@ -30,8 +30,7 @@ Event ID 4672 is generated when an account logs on and is automatically assigned
 - SeAuditPrivilege  
 - SeSystemEnvironmentPrivilege  
 - SeImpersonatePrivilege  
-- SeDelegateSessionUserImpersonatePrivilege
-- ![event4672](screenshots/event4672.png)
+- SeDelegateSessionUserImpersonatePrivilege  
 
 ---
 
