@@ -3,7 +3,7 @@
 ### Screenshot
 (Insert your screenshot here)
 Example:
-![event4672](screenshots/event4672.png)
+![event4672](screenshot/event4672.png)
 
 ---
 
