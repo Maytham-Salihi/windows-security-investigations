@@ -40,7 +40,7 @@ This behaviour is expected when a user mistypes credentials or when an attacker 
 - **Logon Process:** User32  
 - **Authentication Package:** Negotiate  
 - **Key Length:** 0  
-
+### Screenshot
 *![Event 4624 Screenshot](screenshots/event-4625.png)*
 
 ## Analysis
