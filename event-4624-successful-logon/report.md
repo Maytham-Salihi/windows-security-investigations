@@ -37,7 +37,7 @@ This behaviour is normal when Windows services start and authenticate locally.
 - **Logon Process:** Advapi  
 - **Authentication Package:** Negotiate  
 - **Key Length:** 0  
-
+### Screenshot
 *![Event 4624 Screenshot](screenshots/event-4624.png)*
 
 ## Analysis
