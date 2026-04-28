@@ -28,7 +28,7 @@ In this case, the privileges were assigned to the **SYSTEM** account, which is e
 - SeSystemEnvironmentPrivilege  
 - SeImpersonatePrivilege  
 - SeDelegateSessionUserImpersonatePrivilege  
-
+### Screenshot
 *![Event 4672 Screenshot](screenshots/event-4672.png)*
 
 
