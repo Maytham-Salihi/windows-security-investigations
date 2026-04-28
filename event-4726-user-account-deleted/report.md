@@ -1,53 +1,51 @@
-# Event ID 7045 – New Service Installed (Attempted Investigation)
+# Event ID 4726 – User Account Deleted (Attempted Investigation)
 
 ## Summary
-Event ID **7045** is generated when a new service is installed on a Windows system. This event is important for detecting persistence mechanisms, unauthorized software installation, and attacker activity. During this investigation, I filtered the System Log for Event 7045. The filter returned **no matching events**, which is expected if no new services have been installed recently.
+Event ID **4726** is generated when a local user account is deleted on a Windows system. This event is important for detecting unauthorized account removal, privilege abuse, and attacker cleanup activity. During this investigation, I filtered the Windows Security Log for Event 4726. The filter returned **no matching events**, which is expected if no local accounts have been deleted recently.
 
 ## Screenshot
-![Event 7045 Screenshot](screenshots/event-7045.png)
+![Event 4726 Screenshot](screenshots/event-4726.png)
 
 ## Interpretation of the Event
-Event 7045 logs the installation of a new Windows service. If no entries appear, it means:
-- No new services were installed by the user
-- No software installations added new services
-- No system processes created services
-- No malicious activity attempted to establish persistence through services
+Event 4726 logs the deletion of a local user account. If no entries appear, it means:
+- No user accounts were removed by an administrator
+- No system processes deleted accounts
+- No malicious activity attempted to hide its presence by removing accounts
 
-This is normal for a stable WORKGROUP system where services are rarely added or modified.
+This is normal for a stable WORKGROUP system where user accounts are rarely modified.
 
 ## Why No Event Appears on This System
-This machine is a **WORKGROUP** device with a stable configuration. New services are typically created only when:
-- Software is installed that requires a background service
-- Administrative tools add a service
-- Scripts or automation create a service
-- Malware installs a persistence service
+This machine is configured as a **WORKGROUP** device, not joined to a domain. Local account deletion is uncommon unless:
+- A user is manually removed
+- A script or tool deletes an account
+- A service uninstalls and removes its associated user
+- An attacker deletes accounts to cover tracks
 
-Since none of these actions occurred recently, Event 7045 does not appear.
+Since none of these actions occurred, Event 4726 does not appear.
 
 ## Investigation Steps Performed
 1. Opened **Event Viewer**
-2. Navigated to **Windows Logs → System**
-3. Applied filter for **Event ID: 7045**
+2. Navigated to **Windows Logs → Security**
+3. Applied filter for **Event ID: 4726**
 4. Verified that **no events matched the filter**
 5. Captured screenshot of the empty results
 6. Documented findings and confirmed expected system behaviour
 
 ## SOC Analyst Interpretation
-Event 7045 is critical for detecting:
-- Unauthorized service installation
-- Persistence mechanisms used by attackers
-- Suspicious software deployment
-- Privilege escalation attempts
+Event 4726 is critical for detecting:
+- Unauthorized account removal
+- Privilege abuse by insiders
+- Attacker cleanup activity
+- Attempts to remove evidence of persistence
 
-In this case, the absence of Event 7045 indicates:
-- No new services were installed
-- No suspicious persistence mechanisms were created
-- The system shows no signs of unauthorized service activity
+In this case, the absence of Event 4726 indicates:
+- No accounts were deleted
+- No suspicious account‑related activity occurred
+- The system is behaving normally
 
 ## Conclusion
-The investigation into Event ID 7045 was completed successfully. No service installation events were found, which is expected for a WORKGROUP system with no recent software or service changes. The empty result confirms that no unauthorized or unexpected services were installed.
+The investigation into Event ID 4726 was completed successfully. No user account deletion events were found, which is expected for a WORKGROUP system with no recent account modifications. The empty result confirms that no unauthorized or unexpected account deletions occurred.
 
-**Status:** Lab Completed – No Service Installation Events Present  
+**Status:** Lab Completed – No Account Deletion Events Present  
 **Action Required:** None  
-**Recommendation:** Continue monitoring for unexpected service creation activity.
-
+**Recommendation:** Continue monitoring for unexpected account deletion activity.
