@@ -41,7 +41,7 @@ This behaviour is expected when a user mistypes credentials or when an attacker 
 - **Authentication Package:** Negotiate  
 - **Key Length:** 0  
 
-*(Screenshot stored in `screenshots/event-4625.png`.)*
+*![Event 4624 Screenshot](screenshots/event-4625.png)*
 
 ## Analysis
 
