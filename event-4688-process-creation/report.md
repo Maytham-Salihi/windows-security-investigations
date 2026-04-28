@@ -32,6 +32,5 @@ The behaviour appears **benign** and consistent with normal vendor software acti
 - **Process Command Line:** *(Not provided)*  
 
 ### Screenshot
-```markdown
 *![Event 4688 Screenshot](screenshots/event-4688.png)*
 
