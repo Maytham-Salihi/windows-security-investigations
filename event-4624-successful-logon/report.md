@@ -38,7 +38,7 @@ This behaviour is normal when Windows services start and authenticate locally.
 - **Authentication Package:** Negotiate  
 - **Key Length:** 0  
 
-*(Screenshot stored in `screenshots/event-4624.png`.)*
+*![Event 4624 Screenshot](screenshots/event-4624.png)*
 
 ## Analysis
 
