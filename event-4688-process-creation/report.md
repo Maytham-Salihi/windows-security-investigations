@@ -33,5 +33,5 @@ The behaviour appears **benign** and consistent with normal vendor software acti
 
 ### Screenshot
 ```markdown
-*![Event 4688 Screenshot](event-4688-process-creation/screenshots/event-4688.png)*
+*![Event 4688 Screenshots](event-4688-process-creation/screenshots/event-4688.png)*
 
